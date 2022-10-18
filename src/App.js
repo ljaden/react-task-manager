@@ -10,19 +10,22 @@ function App() {
     {
       id: 1,
       text: "Doctors Appointment",
-      day: "Feb 5th",
+      day: "10-18-2022",
+      time: "16:00",
       reminder: true,
     },
     {
       id: 2,
       text: "Meeting at School",
-      day: "Feb 6th",
+      day: "9-1-2022",
+      time: "04:00",
       reminder: true,
     },
     {
       id: 3,
       text: "Food Shooping",
-      day: "Feb 5th @ 2:30PM",
+      day: "5-1-2022",
+      time: "12:00",
       reminder: false,
     },
   ]);
