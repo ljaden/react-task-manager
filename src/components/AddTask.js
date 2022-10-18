@@ -30,6 +30,7 @@ function AddTask({ onAdd }) {
         <input
           type="text"
           placeholder="Add Task"
+          maxLength={25}
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
